@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/objectives" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Projects" />
+
+        <item
+            android:id="@+id/nav_hard_skills"
+            android:icon="@drawable/ic_skills_dark"
+            android:title="Hard Skills" />
+
+        <item
+            android:id="@+id/nav_soft_skills"
+            android:icon="@drawable/ic_skills_dark"
+            android:title="Soft Skills" />
+
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_courses_dark"
+            android:title="Courses" />
+    </group>
+</menu>

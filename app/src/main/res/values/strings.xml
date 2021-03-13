@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">CvApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="flavio_sampson">Flavio Sampson</string>
+    <string name="fsampson30_gmail_com">fsampson30@gmail.com</string>
+    <string name="profile">Profile</string>
+    <string name="objectives">Objectives</string>
+
+    <string name="profile_first_text_en">Hello, my name is Flavio Sampson, and I\'ve created this App to talk a little about myself.</string>
+    <string name="profile_second_text_en">I have over 15 years working in IT, doing a few different functions along this way.</string>
+    <string name="profile_third_text_en">My primary function is to support System users and develop SQL queries and reports.</string>
+    <string name="profile_fourth_text_en">During my free time I study and develop Android Apps having published 2 in Google Play Store</string>
+
+    <string name="profile_first_text_pt">Olá, meu nome é Flavio Sampson, e criei este App para falar um pouco sobre mim.</string>
+    <string name="profile_second_text_pt">Tenho mais de 15 anos trabalhando com TI, diferentes funções ao longo desse período.</string>
+    <string name="profile_third_text_pt">Minha principal função atualmente é prestar suporte a usuários de Sistema e desenvolver consultas e relatórios em SQL.</string>
+    <string name="profile_fourth_text_pt">Durante meu tempo livre, estudo e desenvolvo aplicativos Android sendo que 2 estão publicados na Google Play Store.</string>
+
+
+
+    <string name="objective_text">I\'m looking for a career change, after many years working supporting and training System users, I want to change to Sofware Development.</string>
+    <string name="gitHub">https://github.com/fsampson30</string>
+    <string name="linkedin">https://www.linkedin.com/in/flavio-sampson-a83339185/</string>
+    <string name="hello_blank_fragment">Blank Fragment</string>
+    <string name="cervamania">https://play.google.com/store/apps/details?id=br.com.cervamania.cervamania</string>
+    <string name="missile">https://play.google.com/store/apps/details?id=com.m.missilegetaway</string>
+    <string name="sql">SQL</string>
+
+</resources>
