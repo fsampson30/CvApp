@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SoftSkillsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtSoftSkillTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/txt_title_skills_en"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtSoftSkillPatience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkillTitle"
+                android:layout_alignTop="@id/ratingBarPatience"
+                android:text="@string/patience"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarPatience"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkillTitle"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="3"/>
+
+            <TextView
+                android:id="@+id/txtSoftSkillObjectivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkillPatience"
+                android:layout_alignTop="@id/ratingBarObjectivity"
+                android:text="@string/objectivity"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarObjectivity"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarPatience"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="5"/>
+
+            <TextView
+                android:id="@+id/txtSoftSkillPerseverance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkillObjectivity"
+                android:layout_alignTop="@id/ratingBarPerseverance"
+                android:text="@string/perseverance"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarPerseverance"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarObjectivity"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="4"/>
+
+            <TextView
+                android:id="@+id/txtSoftSkillCommunication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkillPerseverance"
+                android:layout_alignTop="@id/ratingBarCommunication"
+                android:text="@string/communication"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarCommunication"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarPerseverance"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="5"/>
+
+            <TextView
+                android:id="@+id/txtSoftSkillCreativity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkillCommunication"
+                android:layout_alignTop="@id/ratingBarCreativity"
+                android:text="@string/creativity"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarCreativity"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarCommunication"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="2.5"/>
+
+            <TextView
+                android:id="@+id/txtSoftSkillHonesty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkillCreativity"
+                android:layout_alignTop="@id/ratingBarHonesty"
+                android:text="@string/honesty"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarHonesty"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarCreativity"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="5"/>
+
+            <TextView
+                android:id="@+id/txtSoftSkillGroupWork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkillHonesty"
+                android:layout_alignTop="@id/ratingBarGroupWork"
+                android:text="@string/group_work"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarGroupWork"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarHonesty"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="5"/>
+
+            <TextView
+                android:id="@+id/txtSoftSkillWilltoLearn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkillGroupWork"
+                android:layout_alignTop="@id/ratingBarWilltoLearn"
+                android:text="@string/will_to_learn"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarWilltoLearn"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarGroupWork"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="5"/>
+
+            <TextView
+                android:id="@+id/txtSoftSkillLeadership"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkillWilltoLearn"
+                android:layout_alignTop="@id/ratingBarLeadership"
+                android:text="@string/leadership"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarLeadership"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarWilltoLearn"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="5"/>
+
+            <TextView
+                android:id="@+id/txtSoftSkillLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarLeadership"
+                android:layout_marginTop="16dp"
+                android:text="@string/label" />
+
+            <RatingBar
+                android:id="@+id/ratingBar1StarSoftSkill"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkillLabel"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:rating="1" />
+
+            <TextView
+                android:id="@+id/txtSoftSkill1Star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ratingBar1StarSoftSkill"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/ratingBar1StarSoftSkill"
+                android:text="@string/SoftSkills_label_1_stars_en" />
+
+            <RatingBar
+                android:id="@+id/ratingBar2StarSoftSkill"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkill1Star"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:rating="2" />
+
+            <TextView
+                android:id="@+id/txtSoftSkill2Star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ratingBar2StarSoftSkill"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/ratingBar2StarSoftSkill"
+                android:text="@string/SoftSkills_label_2_stars_en" />
+
+            <RatingBar
+                android:id="@+id/ratingBar3StarSoftSkill"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkill2Star"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:rating="3" />
+
+            <TextView
+                android:id="@+id/txtSoftSkill3Star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ratingBar3StarSoftSkill"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/ratingBar3StarSoftSkill"
+                android:text="@string/SoftSkills_label_3_stars_en" />
+
+            <RatingBar
+                android:id="@+id/ratingBar4StarSoftSkill"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkill3Star"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:rating="4" />
+
+            <TextView
+                android:id="@+id/txtSoftSkill4Star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ratingBar4StarSoftSkill"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/ratingBar4StarSoftSkill"
+                android:text="@string/SoftSkills_label_4_stars_en" />
+
+            <RatingBar
+                android:id="@+id/ratingBar5StarSoftSkill"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtSoftSkill4Star"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:rating="5" />
+
+            <TextView
+                android:id="@+id/txtSoftSkill5Star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ratingBar5StarSoftSkill"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/ratingBar5StarSoftSkill"
+                android:text="@string/SoftSkills_label_5_stars_en" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutLanguageButtons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_below="@id/ratingBar5StarSoftSkill">
+
+                <ImageButton
+                    android:id="@+id/btnSoftSkillsFragmentPt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/brasil" />
+
+                <ImageButton
+                    android:id="@+id/btnSoftSkillsFragmentEn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/estados_unidos" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

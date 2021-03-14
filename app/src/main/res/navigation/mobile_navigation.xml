@@ -39,6 +39,6 @@
         android:id="@+id/nav_soft_skills"
         android:name="com.sampson.cvapp.SoftSkillsFragment"
         android:label="Courses"
-        tools:layout="@layout/fragment_soft_skils" />
+        tools:layout="@layout/fragment_soft_skills" />
 
 </navigation>

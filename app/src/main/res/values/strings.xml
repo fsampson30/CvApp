@@ -63,5 +63,37 @@
     <string name="hardskills_label_2_stars_pt">Conhecimento básico. Usado algumas vezes</string>
     <string name="hardskills_label_1_stars_pt">Conhecimento de conceito. Próximo a ser estudado</string>
 
+    <string name="patience">Patience</string>
+    <string name="objectivity">Objectivity</string>
+    <string name="perseverance">Perseverance</string>
+    <string name="communication">Communication</string>
+    <string name="creativity">Creativity</string>
+    <string name="honesty">Honesty</string>
+    <string name="group_work">Group Work</string>
+    <string name="will_to_learn">Will to Learn</string>
+    <string name="leadership">Leadership</string>
+
+    <string name="paciencia">Paciência</string>
+    <string name="objevidade">Objetividade</string>
+    <string name="perseveranca">Perseverança</string>
+    <string name="comunicacao">Comunicação</string>
+    <string name="criatividade">Criatividade</string>
+    <string name="honestidade">Honestidade</string>
+    <string name="trabalho_em_grupo">Trabalho em Grupo</string>
+    <string name="vontade_de_aprender">Vontade de Aprender</string>
+    <string name="lideranca">Liderança</string>
+
+    <string name="SoftSkills_label_1_stars_en">Much to improve</string>
+    <string name="SoftSkills_label_2_stars_en">Getting better</string>
+    <string name="SoftSkills_label_3_stars_en">Good level</string>
+    <string name="SoftSkills_label_4_stars_en">Excelent level</string>
+    <string name="SoftSkills_label_5_stars_en">Dominant feature</string>
+
+    <string name="SoftSkills_label_1_stars_pt">Muito a melhorar</string>
+    <string name="SoftSkills_label_2_stars_pt">Melhorando</string>
+    <string name="SoftSkills_label_3_stars_pt">Bom nível</string>
+    <string name="SoftSkills_label_4_stars_pt">Excelente nível</string>
+    <string name="SoftSkills_label_5_stars_pt">Característica dominante</string>
+
 
 </resources>
