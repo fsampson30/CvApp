@@ -15,13 +15,14 @@
     <string name="profile">Profile</string>
     <string name="objectives">Objectives</string>
 
+
     <string name="profile_first_text_en">Hello, my name is Flavio Sampson, and I\'ve created this App to talk a little about myself.</string>
     <string name="profile_second_text_en">I have over 15 years working in IT, doing a few different functions along this way.</string>
     <string name="profile_third_text_en">My primary function is to support System users and develop SQL queries and reports.</string>
     <string name="profile_fourth_text_en">During my free time I study and develop Android Apps having published 2 in Google Play Store</string>
 
     <string name="profile_first_text_pt">Olá, meu nome é Flavio Sampson, e criei este App para falar um pouco sobre mim.</string>
-    <string name="profile_second_text_pt">Tenho mais de 15 anos trabalhando com TI, diferentes funções ao longo desse período.</string>
+    <string name="profile_second_text_pt">Tenho mais de 15 anos trabalhando com TI, realizando diferentes funções ao longo desse período.</string>
     <string name="profile_third_text_pt">Minha principal função atualmente é prestar suporte a usuários de Sistema e desenvolver consultas e relatórios em SQL.</string>
     <string name="profile_fourth_text_pt">Durante meu tempo livre, estudo e desenvolvo aplicativos Android sendo que 2 estão publicados na Google Play Store.</string>
 
@@ -34,5 +35,33 @@
     <string name="cervamania">https://play.google.com/store/apps/details?id=br.com.cervamania.cervamania</string>
     <string name="missile">https://play.google.com/store/apps/details?id=com.m.missilegetaway</string>
     <string name="sql">SQL</string>
+    <string name="java">Java</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="firebase">Firebase</string>
+    <string name="material_design">Material Design</string>
+    <string name="retrofit">Retrofit</string>
+    <string name="postgresql">PostgreSQL</string>
+    <string name="mysql">MySQL</string>
+    <string name="git">Git</string>
+    <string name="jetpack_compose">JetPack Compose</string>
+
+    <string name="label">Label:</string>
+    <string name="label_pt">Legenda:</string>
+
+    <string name="txt_title_skills_en">In this life we are always learning, all skills can be improved, even 5 stars.</string>
+    <string name="txt_title_skills_pt">Na vida estamos sempre aprendendo, todas as habilidades podem ser melhoradas, até as de 5 estrelas.</string>
+
+    <string name="hardskills_label_5_stars_en">Especialist. There always room for more!</string>
+    <string name="hardskills_label_4_stars_en">Advanced knowledge. Easy to use.</string>
+    <string name="hardskills_label_3_stars_en">Intermediary knowledge. No problem to use.</string>
+    <string name="hardskills_label_2_stars_en">Basic knowledge. Used a few times</string>
+    <string name="hardskills_label_1_stars_en">Knowledge on the concept. Next to study</string>
+
+    <string name="hardskills_label_5_stars_pt">Especialista. Sempre tem algo novo!</string>
+    <string name="hardskills_label_4_stars_pt">Conhecimento avançado. Fácil de usar.</string>
+    <string name="hardskills_label_3_stars_pt">Conhecimento intermediário. Sem problema no uso.</string>
+    <string name="hardskills_label_2_stars_pt">Conhecimento básico. Usado algumas vezes</string>
+    <string name="hardskills_label_1_stars_pt">Conhecimento de conceito. Próximo a ser estudado</string>
+
 
 </resources>

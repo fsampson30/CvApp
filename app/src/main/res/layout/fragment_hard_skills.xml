@@ -7,27 +7,327 @@
     android:padding="16dp"
     tools:context=".HardSkillsFragment">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="match_parent">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:gravity="center_vertical"
-            android:text="@string/sql"
-            android:layout_marginRight="100dp"
-            android:textSize="20dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <RatingBar
-            style="?android:attr/ratingBarStyleIndicator"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:rating="5" />
+            <TextView
+                android:id="@+id/txtHardSkillTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/txt_title_skills_en"
+                android:textSize="20dp" />
 
+            <TextView
+                android:id="@+id/txtHardSkillJava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkillTitle"
+                android:layout_alignTop="@id/ratingBarJava"
+                android:text="@string/java"
+                android:textSize="15dp" />
 
-    </LinearLayout>
+            <RatingBar
+                android:id="@+id/ratingBarJava"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkillTitle"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="4"/>
 
+            <TextView
+                android:id="@+id/txtHardSkillKotlin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkillJava"
+                android:layout_alignTop="@id/ratingBarKotlin"
+                android:text="@string/kotlin"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarKotlin"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarJava"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="2.5"/>
+
+            <TextView
+                android:id="@+id/txtHardSkillFirebase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkillKotlin"
+                android:layout_alignTop="@id/ratingBarFirebase"
+                android:text="@string/firebase"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarFirebase"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarKotlin"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="1"/>
+
+            <TextView
+                android:id="@+id/txtHardSkillMaterialDesign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkillFirebase"
+                android:layout_alignTop="@id/ratingBarMaterialDesign"
+                android:text="@string/material_design"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarMaterialDesign"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarFirebase"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="4"/>
+
+            <TextView
+                android:id="@+id/txtHardSkillJetPackCompose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkillMaterialDesign"
+                android:layout_alignTop="@id/ratingBarJetPackCompose"
+                android:text="@string/jetpack_compose"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarJetPackCompose"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarMaterialDesign"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="1"/>
+
+            <TextView
+                android:id="@+id/txtHardSkillGit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkillRetrofit"
+                android:layout_alignTop="@id/ratingBarGit"
+                android:text="@string/git"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarGit"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarRetrofit"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="3.5"/>
+
+            <TextView
+                android:id="@+id/txtHardSkillMysql"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkillGit"
+                android:layout_alignTop="@id/ratingBarMysql"
+                android:text="@string/mysql"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarMysql"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarGit"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="5"/>
+
+            <TextView
+                android:id="@+id/txtHardSkillPostgre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkillMysql"
+                android:layout_alignTop="@id/ratingBarPostgre"
+                android:text="@string/postgresql"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarPostgre"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarMysql"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="5"/>
+
+            <TextView
+                android:id="@+id/txtHardSkillRetrofit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkillJetPackCompose"
+                android:layout_alignTop="@id/ratingBarRetrofit"
+                android:text="@string/retrofit"
+                android:textSize="15dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarRetrofit"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarJetPackCompose"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:rating="1"/>
+
+            <TextView
+                android:id="@+id/txtHardSkillLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ratingBarPostgre"
+                android:layout_marginTop="16dp"
+                android:text="@string/label" />
+
+            <RatingBar
+                android:id="@+id/ratingBar1Star"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkillLabel"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:rating="1" />
+
+            <TextView
+                android:id="@+id/txtHardSkill1Star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ratingBar1Star"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/ratingBar1Star"
+                android:text="@string/hardskills_label_1_stars_en" />
+
+            <RatingBar
+                android:id="@+id/ratingBar2Star"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkill1Star"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:rating="2" />
+
+            <TextView
+                android:id="@+id/txtHardSkill2Star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ratingBar2Star"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/ratingBar2Star"
+                android:text="@string/hardskills_label_2_stars_en" />
+
+            <RatingBar
+                android:id="@+id/ratingBar3Star"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkill2Star"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:rating="3" />
+
+            <TextView
+                android:id="@+id/txtHardSkill3Star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ratingBar3Star"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/ratingBar3Star"
+                android:text="@string/hardskills_label_3_stars_en" />
+
+            <RatingBar
+                android:id="@+id/ratingBar4Star"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkill3Star"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:rating="4" />
+
+            <TextView
+                android:id="@+id/txtHardSkill4Star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ratingBar4Star"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/ratingBar4Star"
+                android:text="@string/hardskills_label_4_stars_en" />
+
+            <RatingBar
+                android:id="@+id/ratingBar5Star"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHardSkill4Star"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:rating="5" />
+
+            <TextView
+                android:id="@+id/txtHardSkill5Star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ratingBar5Star"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/ratingBar5Star"
+                android:text="@string/hardskills_label_5_stars_en" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutLanguageButtons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_below="@id/ratingBar5Star">
+
+                <ImageButton
+                    android:id="@+id/btnHardSkillsFragmentPt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/brasil" />
+
+                <ImageButton
+                    android:id="@+id/btnHardSkillsFragmentEn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/estados_unidos" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 </LinearLayout>
