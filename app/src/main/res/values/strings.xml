@@ -8,8 +8,8 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_gallery">Objectives</string>
+    <string name="menu_slideshow">Projects</string>
     <string name="flavio_sampson">Flavio Sampson</string>
     <string name="fsampson30_gmail_com">fsampson30@gmail.com</string>
     <string name="profile">Profile</string>
@@ -94,6 +94,20 @@
     <string name="SoftSkills_label_3_stars_pt">Bom nível</string>
     <string name="SoftSkills_label_4_stars_pt">Excelente nível</string>
     <string name="SoftSkills_label_5_stars_pt">Característica dominante</string>
+
+    <string name="infnet_pt">Curso de Desenvolvedor Java - Infnet</string>
+    <string name="caelum_pt">Curso de Desenvolvimento móvel com Google Android - Caelum</string>
+    <string name="udemy_pt">Curso Completo de Android Material Design - Udemy</string>
+    <string name="clc_pt">Curso de Inglês (4 Anos) - CLC Idiomas - Completo - Fluente em Inglês</string>
+    <string name="infnet_en">Java Developer Course - Infnet</string>
+    <string name="caelum_en">Mobile Development with Google Android Course - Caelum</string>
+    <string name="udemy_en">Android Material Design Complete Course - Udemy</string>
+    <string name="clc_en">English Course (4 years) - CLC Idiomas - Completed - English fluency</string>
+
+    <string name="infnet_site">https://www.infnet.edu.br/infnet/</string>
+    <string name="caelum_site">https://www.caelum.com.br/</string>
+    <string name="udemy_site">https://www.udemy.com/</string>
+    <string name="home">Home</string>
 
 
 </resources>

@@ -4,8 +4,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
     tools:context=".HardSkillsFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutLanguageButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_below="@id/ratingBar5Star">
+
+        <ImageButton
+            android:id="@+id/btnHardSkillsFragmentPt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/brasil" />
+
+        <ImageButton
+            android:id="@+id/btnHardSkillsFragmentEn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/estados_unidos" />
+
+    </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -13,7 +41,8 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:padding="16dp">
 
             <TextView
                 android:id="@+id/txtHardSkillTitle"
@@ -296,35 +325,6 @@
                 android:layout_marginLeft="16dp"
                 android:layout_toRightOf="@id/ratingBar5Star"
                 android:text="@string/hardskills_label_5_stars_en" />
-
-            <LinearLayout
-                android:id="@+id/linearLayoutLanguageButtons"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="32dp"
-                android:layout_marginEnd="8dp"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:layout_below="@id/ratingBar5Star">
-
-                <ImageButton
-                    android:id="@+id/btnHardSkillsFragmentPt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    android:src="@drawable/brasil" />
-
-                <ImageButton
-                    android:id="@+id/btnHardSkillsFragmentEn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    android:src="@drawable/estados_unidos" />
-
-            </LinearLayout>
 
         </RelativeLayout>
 
