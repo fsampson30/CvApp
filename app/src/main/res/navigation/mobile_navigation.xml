@@ -14,7 +14,7 @@
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.sampson.cvapp.ui.gallery.ObjectivesFragment"
-        android:label="Objectives"
+        android:label="@string/menu_objectives"
         tools:layout="@layout/fragment_objectives" />
 
     <fragment
@@ -26,19 +26,19 @@
     <fragment
         android:id="@+id/nav_courses"
         android:name="com.sampson.cvapp.CoursesFragment"
-        android:label="Courses"
+        android:label="@string/menu_courses"
         tools:layout="@layout/fragment_courses" />
 
     <fragment
         android:id="@+id/nav_hard_skills"
         android:name="com.sampson.cvapp.HardSkillsFragment"
-        android:label="Courses"
+        android:label="@string/menu_hard_skills"
         tools:layout="@layout/fragment_hard_skills" />
 
     <fragment
         android:id="@+id/nav_soft_skills"
         android:name="com.sampson.cvapp.SoftSkillsFragment"
-        android:label="Courses"
+        android:label="@string/menu_soft_skills"
         tools:layout="@layout/fragment_soft_skills" />
 
 </navigation>

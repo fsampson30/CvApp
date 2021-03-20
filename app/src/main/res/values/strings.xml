@@ -27,8 +27,6 @@
     <string name="profile_fourth_text_pt">Durante meu tempo livre, estudo e desenvolvo aplicativos Android sendo que 2 estão publicados na Google Play Store.</string>
 
 
-
-    <string name="objective_text">I\'m looking for a career change, after many years working supporting and training System users, I want to change to Sofware Development.</string>
     <string name="gitHub">https://github.com/fsampson30</string>
     <string name="linkedin">https://www.linkedin.com/in/flavio-sampson-a83339185/</string>
     <string name="hello_blank_fragment">Blank Fragment</string>
@@ -108,6 +106,21 @@
     <string name="caelum_site">https://www.caelum.com.br/</string>
     <string name="udemy_site">https://www.udemy.com/</string>
     <string name="home">Home</string>
+
+    <string name="text_objective_1_en">I\'m looking for a career change, after many years working supporting and training System users, I want to change to Sofware Development.</string>
+    <string name="text_objectives_2_en">More skilled in the Android Mobile Development, using Java, in this moment I\'m studying Kotlin and Retrofit to consume API\'s. In this study plan the next steps are Firebase and Jetpack Compose</string>
+    <string name="text_objectives_3_en">Open to new technologies, and don\'t have any problem to study new ones.</string>
+    <string name="text_objectives_4_en">I live in Rio de Janeiro but I\'m willing to work in other cities in person or Home Office.</string>
+
+
+    <string name="text_objective_1_pt">Estou buscando uma mudança de carreira, após muitos anos trabalhando com suporte a usuários de Sistema, quero mudar para o Desenvolvimento de Software</string>
+    <string name="text_objectives_2_pt">Mais especializado no Desenvolvimento Mobile Android, usando Java, nesse momento estou estudando Kotlin com Retrofit para consumo de API\'s. Os próximos passos desse plano de estudo serão Firebase e Jetpack Compose</string>
+    <string name="text_objectives_3_pt">Aberto a novas tecnologias e não tenho nenhum problema em estudar coisas novas.</string>
+    <string name="text_objectives_4_pt">Moro no Rio de Janeiro mas estou disposto a trabalhar presencialmente em outras cidades ou Home Office.</string>
+    <string name="menu_objectives">Objectives</string>
+    <string name="menu_courses">Courses</string>
+    <string name="menu_hard_skills">Hard Skills</string>
+    <string name="menu_soft_skills">Soft Skills</string>
 
 
 </resources>
