@@ -122,5 +122,45 @@
     <string name="menu_hard_skills">Hard Skills</string>
     <string name="menu_soft_skills">Soft Skills</string>
 
+    <string name="txt_cervamania">Cervamania</string>
+    <string name="txt_cervamaniaweb">CervamaniaWeb</string>
+    <string name="clinicaapp">ClinicaApp</string>
+    <string name="clinicaappservlets">ClinicaAppServlets</string>
+    <string name="clinicaappdesktop">ClinicaAppDesktop</string>
+    <string name="missilegetaway">MissileGetAway</string>
+    <string name="estudokotlinapi">EstudoKotlinApi</string>
+    <string name="cvapp">CvApp</string>
+
+    <string name="description_repository1_en">App that lists the most diverse types of Beer around the World. You can know all the beers that you like, share with others, rate and post your opinion about it. Knowledge in the palm of your hand. Access to a external database via Servlet/Json MySQL database Sends pictures of your favorite beer in case you don’t find it.</string>
+    <string name="description_repository2_en">Backend of the project. Servlets to access MySQL Database and creation of the photo files send by the user.</string>
+    <string name="description_repository3_en">App developed for the Clinic’s patients schedule consults and exams and receive the results os the exams. It was intended to facilitate the communication between patient and Clinic. Access to a external database via Servlet/Json MySQL database. Sends pictures of the medical request. Download of PDF. Desktop module develop in Java/Swing to control and respond the app demands.</string>
+    <string name="description_repository4_en">Backend of the Project. Servlets to access MySQL Database and creation of the photo files send by the patient.</string>
+    <string name="description_repository5_en">Desktop program created to control the information sent and received by patient and clinic. Access directly the MySQL Database.</string>
+    <string name="description_repository6_en">Game developed using the Framework Cocos2d. A fun ship game designed to shoot your enemies.</string>
+    <string name="description_repository7_en">App is being delevoped with a friend (link bellow) to study purposes. The App will consume a API simulating an employee registration. Uses Koltin and Retrofit.</string>
+    <string name="description_repository8_en">App created to show a little bit about myself. : )</string>
+
+    <string name="description_repository1_pt">App que lista os mais diversos tipos de cerveja do Mundo. Você pode aprender tudo sobre as cervejas que gosta, compartilhar com os amigos, classificar e postar sua opinião sobre ela. Conhecimento na palma de sua mão. Acesso a um banco de dados MySQL via Servlet/Json. Envie fotos de suas cervejas favoritas caso não ache a sua.</string>
+    <string name="description_repository2_pt">Backend do projeto. Servlets de acesso ao Banco de Dados MySQL e criação dos arquivos de fotos enviados pelos usuários.</string>
+    <string name="description_repository3_pt">App desenvolvido para os pacientes de uma clínica consultarem seus exames e receberem os seus resultados. Foi feito como forma de facilicar a comunicação entre paciente e clínica. Acesso a um Banco de Dados via Servlet/Json. Envia fotos dos pedidos médicos dos pacientes. Download de PDF. Feito módulo para Desktop em Java/Swing  para controle e respostas das demandas do App.</string>
+    <string name="description_repository4_pt">Backend do projeto. Servlets de acesso ao Banco de Dados MySQL e criação dos arquivos de fotos enviados pelos pacientes.</string>
+    <string name="description_repository5_pt">Módulo Desktop  criado para controle da informação enviada e recebida pelo paciente e pela clínica. Acessa diretamente o Banco de Dados MySQL.</string>
+    <string name="description_repository6_pt">Jogo desenvolvido usando o Framework Cocos2d. Um divertido jogo de nave feito para destruit seus inimigos.</string>
+    <string name="description_repository7_pt">App está sendo desenvolvido junto com um amigo (link abaixo) com intuito de estudo. Esse App irá consumir uma API simulando um cadastro de funcionários. Utiliza Koltin e Retrofit.</string>
+    <string name="description_repository8_pt">App criado para falar um pouco sobre mim. : )</string>
+
+    <string name="url_repository1">https://github.com/fsampson30/Cervamania</string>
+    <string name="url_repository2">https://github.com/fsampson30/CervamaniaWeb</string>
+    <string name="url_repository3">https://github.com/fsampson30/ClinicaApp</string>
+    <string name="url_repository4">https://github.com/fsampson30/ClinicaAppServlets</string>
+    <string name="url_repository5">https://github.com/fsampson30/ClinicaAppDesktop</string>
+    <string name="url_repository6">https://github.com/fsampson30/MissileGetAway</string>
+    <string name="url_repository7">https://github.com/fsampson30/EstudoKotlinApi</string>
+    <string name="url_repository8">https://github.com/fsampson30/CvApp</string>
+
+    <string name="url_friend">https://github.com/SergioRuyDev</string>
+    <string name="navigate">NAVIGATE</string>
+    <string name="navigate_pt">NAVEGAR</string>
+    >
 
 </resources>

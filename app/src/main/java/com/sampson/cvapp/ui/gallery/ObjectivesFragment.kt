@@ -25,17 +25,17 @@ class ObjectivesFragment : Fragment() {
         val btnPt = view.findViewById<ImageButton>(R.id.btnObjectivesFragmentPt)
 
         btnEn.setOnClickListener(View.OnClickListener {
-            txtFirstObjective.text = resources.getText(R.string.text_objective_1_en)
-            txtSecondObjective.text = resources.getText(R.string.text_objectives_2_en)
-            txtThirdObjective.text = resources.getText(R.string.text_objectives_3_en)
-            txtFourthObjective.text = resources.getText(R.string.text_objectives_4_en)
+            txtFirstObjective.text = getString(R.string.text_objective_1_en)
+            txtSecondObjective.text = getString(R.string.text_objectives_2_en)
+            txtThirdObjective.text = getString(R.string.text_objectives_3_en)
+            txtFourthObjective.text = getString(R.string.text_objectives_4_en)
         })
 
         btnPt.setOnClickListener(View.OnClickListener {
-            txtFirstObjective.text = resources.getText(R.string.text_objective_1_pt)
-            txtSecondObjective.text = resources.getText(R.string.text_objectives_2_pt)
-            txtThirdObjective.text = resources.getText(R.string.text_objectives_3_pt)
-            txtFourthObjective.text = resources.getText(R.string.text_objectives_4_pt)
+            txtFirstObjective.text = getString(R.string.text_objective_1_pt)
+            txtSecondObjective.text = getString(R.string.text_objectives_2_pt)
+            txtThirdObjective.text = getString(R.string.text_objectives_3_pt)
+            txtFourthObjective.text = getString(R.string.text_objectives_4_pt)
         })
 
         return view
