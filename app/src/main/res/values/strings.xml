@@ -145,7 +145,7 @@
     <string name="description_repository3_pt">App desenvolvido para os pacientes de uma clínica consultarem seus exames e receberem os seus resultados. Foi feito como forma de facilicar a comunicação entre paciente e clínica. Acesso a um Banco de Dados via Servlet/Json. Envia fotos dos pedidos médicos dos pacientes. Download de PDF. Feito módulo para Desktop em Java/Swing  para controle e respostas das demandas do App.</string>
     <string name="description_repository4_pt">Backend do projeto. Servlets de acesso ao Banco de Dados MySQL e criação dos arquivos de fotos enviados pelos pacientes.</string>
     <string name="description_repository5_pt">Módulo Desktop  criado para controle da informação enviada e recebida pelo paciente e pela clínica. Acessa diretamente o Banco de Dados MySQL.</string>
-    <string name="description_repository6_pt">Jogo desenvolvido usando o Framework Cocos2d. Um divertido jogo de nave feito para destruit seus inimigos.</string>
+    <string name="description_repository6_pt">Jogo desenvolvido usando o Framework Cocos2d. Um divertido jogo de nave feito para destruir seus inimigos.</string>
     <string name="description_repository7_pt">App está sendo desenvolvido junto com um amigo (link abaixo) com intuito de estudo. Esse App irá consumir uma API simulando um cadastro de funcionários. Utiliza Koltin e Retrofit.</string>
     <string name="description_repository8_pt">App criado para falar um pouco sobre mim. : )</string>
 
