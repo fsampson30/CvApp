@@ -139,6 +139,7 @@
     <string name="description_repository6_en">Game developed using the Framework Cocos2d. A fun ship game designed to shoot your enemies.</string>
     <string name="description_repository7_en">App is being delevoped with a friend (link bellow) to study purposes. The App will consume a API simulating an employee registration. Uses Koltin and Retrofit.</string>
     <string name="description_repository8_en">App created to show a little bit about myself. : )</string>
+    <string name="description_repository9_en">Repositoty created to Study Kotlin using JetBrains Plataform.</string>
 
     <string name="description_repository1_pt">App que lista os mais diversos tipos de cerveja do Mundo. Você pode aprender tudo sobre as cervejas que gosta, compartilhar com os amigos, classificar e postar sua opinião sobre ela. Conhecimento na palma de sua mão. Acesso a um banco de dados MySQL via Servlet/Json. Envie fotos de suas cervejas favoritas caso não ache a sua.</string>
     <string name="description_repository2_pt">Backend do projeto. Servlets de acesso ao Banco de Dados MySQL e criação dos arquivos de fotos enviados pelos usuários.</string>
@@ -148,6 +149,7 @@
     <string name="description_repository6_pt">Jogo desenvolvido usando o Framework Cocos2d. Um divertido jogo de nave feito para destruir seus inimigos.</string>
     <string name="description_repository7_pt">App está sendo desenvolvido junto com um amigo (link abaixo) com intuito de estudo. Esse App irá consumir uma API simulando um cadastro de funcionários. Utiliza Koltin e Retrofit.</string>
     <string name="description_repository8_pt">App criado para falar um pouco sobre mim. : )</string>
+    <string name="description_repository9_pt">Repositório criado usando a Plataforma Jetbrains para estudo de Kotlin.</string>
 
     <string name="url_repository1">https://github.com/fsampson30/Cervamania</string>
     <string name="url_repository2">https://github.com/fsampson30/CervamaniaWeb</string>
@@ -161,6 +163,7 @@
     <string name="url_friend">https://github.com/SergioRuyDev</string>
     <string name="navigate">NAVIGATE</string>
     <string name="navigate_pt">NAVEGAR</string>
+    <string name="simple_chatty_bot">Simple_Chatty_Bot</string>
     >
 
 </resources>

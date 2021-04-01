@@ -29,6 +29,7 @@ class ProjectsFragment : Fragment() {
         val btnRepository6 = view.findViewById<Button>(R.id.btnRepository6)
         val btnRepository7 = view.findViewById<Button>(R.id.btnRepository7)
         val btnRepository8 = view.findViewById<Button>(R.id.btnRepository8)
+        val btnRepository9 = view.findViewById<Button>(R.id.btnRepository9)
         val btnEn = view.findViewById<ImageButton>(R.id.btnProjectsFragmentEn)
         val btnPt = view.findViewById<ImageButton>(R.id.btnProjectsFragmentPt)
 
@@ -40,6 +41,7 @@ class ProjectsFragment : Fragment() {
         val txtDescRep6 = view.findViewById<TextView>(R.id.txtDescriptionRepository6)
         val txtDescRep7 = view.findViewById<TextView>(R.id.txtDescriptionRepository7)
         val txtDescRep8 = view.findViewById<TextView>(R.id.txtDescriptionRepository8)
+        val txtDescRep9 = view.findViewById<TextView>(R.id.txtDescriptionRepository9)
 
         btnRepository1.setOnClickListener(View.OnClickListener {
             val url = getString(R.string.url_repository1)
@@ -106,6 +108,7 @@ class ProjectsFragment : Fragment() {
             txtDescRep6.text = getString(R.string.description_repository6_en)
             txtDescRep7.text = getString(R.string.description_repository7_en)
             txtDescRep8.text = getString(R.string.description_repository8_en)
+            txtDescRep9.text = getString(R.string.description_repository9_en)
             btnRepository1.text = getString(R.string.navigate)
             btnRepository2.text = getString(R.string.navigate)
             btnRepository3.text = getString(R.string.navigate)
@@ -114,6 +117,7 @@ class ProjectsFragment : Fragment() {
             btnRepository6.text = getString(R.string.navigate)
             btnRepository7.text = getString(R.string.navigate)
             btnRepository8.text = getString(R.string.navigate)
+            btnRepository9.text = getString(R.string.navigate)
 
         })
 
@@ -126,6 +130,7 @@ class ProjectsFragment : Fragment() {
             txtDescRep6.text = getString(R.string.description_repository6_pt)
             txtDescRep7.text = getString(R.string.description_repository7_pt)
             txtDescRep8.text = getString(R.string.description_repository8_pt)
+            txtDescRep9.text = getString(R.string.description_repository9_pt)
             btnRepository1.text = getString(R.string.navigate_pt)
             btnRepository2.text = getString(R.string.navigate_pt)
             btnRepository3.text = getString(R.string.navigate_pt)
@@ -134,6 +139,7 @@ class ProjectsFragment : Fragment() {
             btnRepository6.text = getString(R.string.navigate_pt)
             btnRepository7.text = getString(R.string.navigate_pt)
             btnRepository8.text = getString(R.string.navigate_pt)
+            btnRepository9.text = getString(R.string.navigate_pt)
 
         })
 
